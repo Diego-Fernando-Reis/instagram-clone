@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.corpo{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.esquerda, .direita{
+    width: 50%;
+}
+
+.esquerda{
+    text-align: right;
+}
+
+.direita .formulario{
+    padding: 40px 20px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 0 60px;
+    background-color: white;
+}
+
+.cabecalho{
+    margin-bottom: 40px;
+}
+
+input{
+    width: 90%;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 90%;
+    margin-top: 10px;
+    padding: 8px 0;
+}
